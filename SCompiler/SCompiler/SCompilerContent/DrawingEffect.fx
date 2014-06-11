@@ -25,7 +25,7 @@ float4 Read(float4 color : COLOR0, float2 coords : TEXCOORD0) : COLOR0
 		float y = (u.x - d.x)*DrawSize.y;
 
 		//c = float4(c.x*4, c.y / 5, -c.x*4, 1);
-		c = tex2D(sampler1, coords + float2(x,y)*0.0001)+(x+y)*0.005;
+		c = tex2D(sampler1, coords + float2(x,y)*0.0003)*((x+y)*0.03+0.7) + min(0.2, pow(2, -(x*y))*0.005);
 	}
 	return c;
 }

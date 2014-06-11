@@ -14,7 +14,6 @@ float4 PixelShaderFunction(float4 color : COLOR0, float2 coords : TEXCOORD0) : C
 	if(q < 3 && c.a == 1) return float4(sin(t*20)*0.2, 0, 0, 1);
 
 	//return the boundaries
-	if(coords.x < one.x || coords.y < one.y || coords.x > 1-one.x || coords.y > 1-one.y) return float4(0, 0, 0, 0);
 	if(c.a  == 0) return float4(0, 0, 0, 0);
 	else if(c.a < 1) return float4(sin(t*20)*c.a*0.2, 0, 0, c.a);
 
