@@ -1,0 +1,4 @@
+E:\Users\David\Documents\Visual Studio 2010\Projects\SCompiler\SCompiler\SCompilerContent\obj\x86\Debug\SCompilerContent.contentprojResolveAssemblyReference.cache
+E:\Users\David\Documents\Visual Studio 2012\Projects\Chalkboard\SCompiler\SCompiler\SCompilerContent\obj\x86\Debug\SCompilerContent.contentprojResolveAssemblyReference.cache
+E:\Users\David\Documents\Visual Studio 2013\Projects\Chalkboard\SCompiler\SCompiler\SCompilerContent\obj\x86\Debug\SCompilerContent.contentprojResolveAssemblyReference.cache
+E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompilerContent\obj\x86\Debug\SCompilerContent.contentprojResolveAssemblyReference.cache

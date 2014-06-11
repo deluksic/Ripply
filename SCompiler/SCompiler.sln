@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCompiler", "SCompiler\SCompiler\SCompiler.csproj", "{0DECEDD6-CDEF-4143-BCD9-813737F2897D}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "SCompilerContent", "SCompiler\SCompilerContent\SCompilerContent.contentproj", "{AC7517C2-EC19-4B10-8A0F-932AF410B343}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DECEDD6-CDEF-4143-BCD9-813737F2897D}.Debug|x86.ActiveCfg = Debug|x86
+		{0DECEDD6-CDEF-4143-BCD9-813737F2897D}.Debug|x86.Build.0 = Debug|x86
+		{0DECEDD6-CDEF-4143-BCD9-813737F2897D}.Release|x86.ActiveCfg = Release|x86
+		{0DECEDD6-CDEF-4143-BCD9-813737F2897D}.Release|x86.Build.0 = Release|x86
+		{AC7517C2-EC19-4B10-8A0F-932AF410B343}.Debug|x86.ActiveCfg = Debug|x86
+		{AC7517C2-EC19-4B10-8A0F-932AF410B343}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

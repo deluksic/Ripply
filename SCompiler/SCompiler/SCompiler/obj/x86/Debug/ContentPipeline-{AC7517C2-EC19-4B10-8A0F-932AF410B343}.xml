@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>SimulationEffect.fx</Source>
+      <Name>SimulationEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>MGEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\bin\x86\Debug\Content\SimulationEffect.xnb</Output>
+      <Time>2014-06-11T00:54:04.869698+02:00</Time>
+    </Item>
+    <Item>
+      <Source>DrawingEffect.fx</Source>
+      <Name>DrawingEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>MGEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\bin\x86\Debug\Content\DrawingEffect.xnb</Output>
+      <Time>2014-06-11T01:55:33.2924634+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect1.fx</Source>
+      <Name>Effect1</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>MGEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\bin\x86\Debug\Content\Effect1.xnb</Output>
+      <Time>2014-06-10T21:48:36.662292+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Pebbles.png</Source>
+      <Name>Pebbles</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\bin\x86\Debug\Content\Pebbles.xnb</Output>
+      <Time>2014-06-11T00:33:30.4438607+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{AC7517C2-EC19-4B10-8A0F-932AF410B343}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompilerContent\</RootDirectory>
+      <LoggerRootDirectory>E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>E:\Program Files (x86)\MSBuild\MonoGame\v3.0\MonoGameContentProcessors.dll</Key>
+        <Value>2014-03-11T14:18:34+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2012-09-06T23:52:54+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2012-09-06T23:52:54+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2012-09-06T23:52:54+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2012-09-06T23:52:54+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2012-09-06T23:52:54+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2012-09-06T23:52:54+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-12-12T02:40:19.575942+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
