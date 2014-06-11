@@ -31,3 +31,4 @@ e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\obj\ARM\Debug
 e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\bin\WindowsPhone\ARM\Debug\Content\DrawingEffect.xnb
 e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\bin\WindowsPhone\ARM\Debug\Content\SimulationEffect.xnb
 e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\bin\WindowsPhone\ARM\Debug\Content\Pebbles.xnb
+e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\bin\WindowsPhone\ARM\Debug\Content\Source.xnb

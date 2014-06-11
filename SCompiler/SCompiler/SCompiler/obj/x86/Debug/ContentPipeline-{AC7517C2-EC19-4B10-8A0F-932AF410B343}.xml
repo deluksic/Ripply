@@ -8,7 +8,7 @@
       <Processor>MGEffectProcessor</Processor>
       <Options>None</Options>
       <Output>E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\bin\x86\Debug\Content\SimulationEffect.xnb</Output>
-      <Time>2014-06-11T00:54:04.869698+02:00</Time>
+      <Time>2014-06-11T12:44:20.4780937+02:00</Time>
     </Item>
     <Item>
       <Source>DrawingEffect.fx</Source>
@@ -17,7 +17,7 @@
       <Processor>MGEffectProcessor</Processor>
       <Options>None</Options>
       <Output>E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\bin\x86\Debug\Content\DrawingEffect.xnb</Output>
-      <Time>2014-06-11T01:55:33.2924634+02:00</Time>
+      <Time>2014-06-11T09:10:35.2195018+02:00</Time>
     </Item>
     <Item>
       <Source>Effect1.fx</Source>
@@ -36,6 +36,15 @@
       <Options>None</Options>
       <Output>E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\bin\x86\Debug\Content\Pebbles.xnb</Output>
       <Time>2014-06-11T00:33:30.4438607+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Source.png</Source>
+      <Name>Source</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\bin\x86\Debug\Content\Source.xnb</Output>
+      <Time>2014-06-11T08:39:31.6247011+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

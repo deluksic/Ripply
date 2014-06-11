@@ -50,6 +50,7 @@ namespace WaveSimulation
 
             //set drawing effect
             drawingEffect = draw;
+            drawingEffect.Parameters["DrawSize"].SetValue(new Vector2(Width, Height));
 
             //set rendertargets
             RenderTargets = new RenderTarget2D[]{
@@ -70,7 +71,7 @@ namespace WaveSimulation
         {
             graphicsDevice.SetRenderTarget(TargetField);
             graphicsDevice.Textures[1] = TargetTemp;
-            spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.Opaque, SamplerState.PointClamp, DepthStencilState.None, RasterizerState.CullNone);
+            spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.Opaque, SamplerState.LinearClamp, DepthStencilState.None, RasterizerState.CullNone);
         }
 
         public void Write(Texture2D tex, Rectangle rec, WriteMode wm)
@@ -134,7 +135,6 @@ namespace WaveSimulation
         public void Draw(Rectangle rec)
         {
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.Opaque, SamplerState.PointClamp, DepthStencilState.None, RasterizerState.CullNone);
-            drawingEffect.Parameters["DrawSize"].SetValue(new Vector2(rec.Width, rec.Height));
             drawingEffect.CurrentTechnique.Passes[0].Apply();
             spriteBatch.Draw(TargetField, rec, Color.White);
             spriteBatch.End();

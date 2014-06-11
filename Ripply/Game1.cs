@@ -20,12 +20,13 @@ namespace Ripply
         TouchCollection Touches;
         Random random = new Random();
         Texture2D Pixel;
-        int scale = 2; //how many logical pixels per real pixel
+        int scale = 3; //how many logical pixels per real pixel
         public WriteMode Mode = WriteMode.Height;
 
         WaveSimulator simulator;
 
         Texture2D Background;
+        Texture2D Source;
 
         public Game1()
         {
@@ -46,6 +47,7 @@ namespace Ripply
             Pixel.SetData<Color>(new Color[] { Color.White });
 
             Background = Content.Load<Texture2D>("Pebbles");
+            Source = Content.Load<Texture2D>("Source");
 
             GraphicsDevice.SamplerStates[0] = SamplerState.PointClamp;
         }
@@ -65,7 +67,7 @@ namespace Ripply
                 HandleInput(Mode);
 
             //add rain
-            //simulator.Write(Pixel, new Rectangle(random.Next(0, simulator.Width), random.Next(0, simulator.Height), 1, 1), new Color(1, 0, 0, 1), WriteMode.Height);
+            //simulator.Write(Source, new Rectangle(random.Next(0, simulator.Width), random.Next(0, simulator.Height), 10, 10), new Color(1, 0, 0, 1), WriteMode.Height);
 
             simulator.EndWrite();
 
@@ -94,7 +96,7 @@ namespace Ripply
 
             //point
             simulator.SetSourcePosition(pos);
-            //simulator.Write(Pixel, new Rectangle((int)pos.X, (int)pos.Y, 5, 5), mode);
+            //simulator.Write(Source, new Rectangle((int)pos.X-5, (int)pos.Y-5, 10, 10), mode);
         }
     }
 }

@@ -213,3 +213,4 @@ E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\
 E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\obj\x86\Debug\SCompiler.csprojResolveAssemblyReference.cache
 E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\bin\x86\Debug\Content\Pebbles.xnb
+E:\Users\David\Documents\Visual Studio 2013\Projects\Ripply\SCompiler\SCompiler\SCompiler\bin\x86\Debug\Content\Source.xnb

@@ -1,8 +1,8 @@
 ﻿float dt;
 float2 one;
 float2 source = float2(-0.5, -0.5);
-static float speed = 0.03f;
-static float k = 20;
+static float speed = 0.05f;
+static float k = 40;
 
 sampler s0;
 float t;

@@ -18,14 +18,14 @@ float4 Read(float4 color : COLOR0, float2 coords : TEXCOORD0) : COLOR0
 	{
 		float4 l = tex2D(sampler0, coords - unitx);
 		float4 r = tex2D(sampler0, coords + unitx);
-		float2 x = unitx * (l.x - r.x);
+		float x = (l.x - r.x)*DrawSize.x;
 
 		float4 u = tex2D(sampler0, coords - unity);
 		float4 d = tex2D(sampler0, coords + unity);
-		float2 y = unitx * (u.x - d.x);
+		float y = (u.x - d.x)*DrawSize.y;
 
 		//c = float4(c.x*4, c.y / 5, -c.x*4, 1);
-		c = tex2D(sampler1, coords + (x+y)*1000) + tex2D(sampler0, coords - float2(0.025, 0.025)).x*2;
+		c = tex2D(sampler1, coords + float2(x,y)*0.0001)+(x+y)*0.005;
 	}
 	return c;
 }

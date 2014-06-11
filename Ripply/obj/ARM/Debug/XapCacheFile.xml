@@ -1,8 +1,9 @@
-﻿<xapCache source="e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\bin\WindowsPhone\ARM\Debug\Ripply_Debug_ARM.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="6/11/2014 1:55:44 AM">
-  <file source="e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\obj\ARM\Debug\Ripply.dll" archivePath="Ripply.dll" lastWriteTime="6/11/2014 1:53:48 AM" />
-  <file source="e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\Content\DrawingEffect.xnb" archivePath="Content\DrawingEffect.xnb" lastWriteTime="6/11/2014 1:55:41 AM" />
-  <file source="e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\Content\SimulationEffect.xnb" archivePath="Content\SimulationEffect.xnb" lastWriteTime="6/11/2014 1:53:47 AM" />
+﻿<xapCache source="e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\bin\WindowsPhone\ARM\Debug\Ripply_Debug_ARM.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="6/11/2014 12:55:30 PM">
+  <file source="e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\obj\ARM\Debug\Ripply.dll" archivePath="Ripply.dll" lastWriteTime="6/11/2014 12:55:29 PM" />
+  <file source="e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\Content\DrawingEffect.xnb" archivePath="Content\DrawingEffect.xnb" lastWriteTime="6/11/2014 12:44:25 PM" />
+  <file source="e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\Content\SimulationEffect.xnb" archivePath="Content\SimulationEffect.xnb" lastWriteTime="6/11/2014 12:44:27 PM" />
   <file source="e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\Content\Pebbles.xnb" archivePath="Content\Pebbles.xnb" lastWriteTime="6/11/2014 0:33:41 AM" />
+  <file source="e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\Content\Source.xnb" archivePath="Content\Source.xnb" lastWriteTime="6/11/2014 8:39:43 AM" />
   <file source="e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2/20/2013 6:24:06 AM" />
   <file source="e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2/20/2013 6:24:06 AM" />
   <file source="e:\users\david\documents\visual studio 2013\Projects\Ripply\Ripply\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2/20/2013 6:24:06 AM" />
